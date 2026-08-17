@@ -121,7 +121,25 @@ http://localhost:3000
 The application will be displayed in the browser.
 
 ## Screenshots
-yahan screenshots ki list
+
+<img src="images/Screenshot 1.png" width="700">
+
+<img src="images/Screenshot 2.png" width="700">
+
+<img src="images/Screenshot 3.png" width="700">
+
+<img src="images/Screenshot 4.png" width="700">
+
+<img src="images/Screenshot 5.png" width="700">
+
+<img src="images/Screenshot 6.png" width="700">
+
+<img src="images/Screenshot 7.png" width="700">
+
+<img src="images/Screenshot 8.png" width="700">
 
 ## Submission Links
-GitHub aur Docker Hub links
+
+GitHub Repository: https://github.com/izmahnasir20/devops-docker-task
+
+Docker Hub Repository: https://hub.docker.com/r/izmahnasir/devops-task
