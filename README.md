@@ -55,42 +55,52 @@ Starts the Node.js application when the container is launched.
 ### Build the Docker Image
 ```bash
 docker build -t devops-task:v1 .
+```
 
 ### Run the Container
 ```bash
 docker run -d -p 3000:3000 --name devops-task devops-task:v1
+```
 
 ### Check Running Containers
 ```bash
 docker ps
+```
 
 ### View Container Logs
 ```bash
 docker logs devops-task
+```
 
 ### Inspect the Container
 ```bash
 docker inspect devops-task
+```
 
 ### Tag the Image
 ```bash
 docker tag devops-task:v1 izmahnasir/devops-task:v1
+```
 
 ### Login to Docker Hub
 ```bash
 docker login
+```
 
 ### Push the Image to Docker Hub
 ```bash
 docker push izmahnasir/devops-task:v1
+```
 
 ### Pull the Image from Docker Hub
 ```bash
 docker pull izmahnasir/devops-task:v1
+```
 
 ### Run the Image from Docker Hub
 ```bash
 docker run -d -p 3000:3000 --name devops-task izmahnasir/devops-task:v1
+```
 
 ## Docker Hub
 Docker Hub Repository: https://hub.docker.com/r/izmahnasir/devops-task
@@ -102,7 +112,7 @@ The application can be run using the Docker image available on Docker Hub.
 First, download the Docker image from Docker Hub:
 ```bash
 docker pull izmahnasir/devops-task:v1
-
+```
 ### Step 2: Run the Docker Container
 Create and start a container using the downloaded Docker image:
 
