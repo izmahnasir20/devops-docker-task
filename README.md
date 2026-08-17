@@ -115,19 +115,19 @@ docker pull izmahnasir/devops-task:v1
 ```
 ### Step 2: Run the Docker Container
 Create and start a container using the downloaded Docker image:
-
+```bash
 docker run -d -p 3000:3000 --name devops-task izmahnasir/devops-task:v1
-
+```
 ### Step 3: Check the Running Container
 Verify that the Docker container is running successfully:
-
+```bash
 docker ps
-
+```
 ### Step 4: Open the Application in Browser
 Open a web browser and go to:
-
+```bash
 http://localhost:3000
-
+```
 The application will be displayed in the browser.
 
 ## Screenshots
